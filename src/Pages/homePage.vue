@@ -32,15 +32,15 @@
 
         <div class="flex flex-col gap-11">
             <div class="flex gap-36 items-center ">
-                <img class="w-36 h-fit" src="../assets/images/works/Layer 3.png">
+                <img class="w-36 h-fit" src="../assets/images/works/Layer3.png">
                 <img class="w-36 h-fit" src="../assets/images/works/g3.png">
                 <img class="w-36 h-fit" src="../assets/images/works/Vector.png">
-                <img class="w-36 h-fit" src="../assets/images/works/PLUGblack 1.png">
+                <img class="w-36 h-fit" src="../assets/images/works/PLUGblack1.png">
             </div>
             <div class="flex gap-32 items-center">
-                <img class="w-36 h-fit" src="../assets/images/works/Approved RealSearch Identity Design-03 1.png">
+                <img class="w-36 h-fit" src="../assets/images/works/ApprovedRealSearchIdentityDesign-031.png">
                 <img class="w-36 h-fit" src="../assets/images/works/Krptrix.png">
-                <img class="w-36 h-fit" src="../assets/images/works/Imaginarium 1.png">
+                <img class="w-36 h-fit" src="../assets/images/works/Imaginarium1.png">
                 <img class="w-36 h-fit" src="../assets/images/works/BoleFestival.png">
             </div>
         </div>
@@ -68,7 +68,7 @@
                 </div>
 
                 <div>
-                    <img class="rounded" src="../assets/images/featured/Frame 26.png">
+                    <img class="rounded" src="../assets/images/featured/Frame26.png">
                 </div>
             </div>
 
@@ -90,7 +90,7 @@
                 </div>
 
                 <div>
-                    <img class="rounded" src="../assets/images/featured/Frame 427321090.png">
+                    <img class="rounded" src="../assets/images/featured/Frame427321090.png">
                 </div>
             </div>
 
@@ -109,7 +109,7 @@
                 </div>
 
                 <div>
-                    <img class="rounded" src="../assets/images/featured/Frame 427321140.png">
+                    <img class="rounded" src="../assets/images/featured/Frame427321140.png">
                 </div>
             </div>
 

@@ -1,5 +1,5 @@
 <template>
-    <footer class="px-[7em]">
+    <footer class="px-[7em] bg-white pb-8">
         <div>
             <h1 class="text-[140px]">Need a Designer?</h1>
             <h1 class="text-[140px] text-end">Get in touch!</h1>

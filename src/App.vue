@@ -5,7 +5,7 @@ import footerSection from './components/sections/footer-section.vue';
 </script>
 
 <template>
-  <section class="py-8 !font-clash">
+  <section class="pt-8 !font-clash bg-[#F5F6F8]">
     <header-section></header-section>
     <router-view></router-view>
     <footer-section></footer-section>

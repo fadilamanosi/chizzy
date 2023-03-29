@@ -14,7 +14,7 @@
     "format": "prettier --write src/",
     "publish": "npm run vite && npm run build",
     "git": "git add . && git commit -m 'update' && git push origin master",
-    "git-publish": "npm run build && npm run git"
+    "git-publish": "npm run git && npm run build"
   },
   "keywords": [],
   "author": "",

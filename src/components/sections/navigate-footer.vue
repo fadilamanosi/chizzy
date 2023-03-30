@@ -1,10 +1,10 @@
 <template>
-    <div class="flex justify-between bg-[#F5F6F8] border-t pt-16 border-gray-200">
+    <div class="flex justify-between bg-inherit border-t pt-16 border-gray-200">
         <div class="grid cursor-pointer" @click="prevSlide()">
             <span class="text-[16px]">
                 PREVIOUS
             </span>
-            <span class="font-[500]">
+            <span class="font-[500] md:w-full w-[60%]">
                 Web App and Landing Page for BitBarter
             </span>
         </div>
@@ -21,9 +21,10 @@
 </template>
 
 <script setup>
-import { ref } from 'vue';
+import { onBeforeMount, ref } from 'vue';
 
 const emits = defineEmits(['next', 'prev']);
+const props = defineProps(['slide'])
 const next = ref(0);
 
 function nextSlide() {
@@ -37,5 +38,9 @@ function prevSlide() {
         emits('prev', --next.value);
     }
 }
+
+onBeforeMount(() => {
+    next.value = props.slide;
+})
 
 </script>

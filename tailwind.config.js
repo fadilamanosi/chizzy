@@ -9,6 +9,7 @@ module.exports = {
       'clash': ['Clash Grotesk', 'sans-serif'],
       'works': ['Work Sans', 'sans-serif']
     },
+
     extend: {},
   },
   plugins: [],

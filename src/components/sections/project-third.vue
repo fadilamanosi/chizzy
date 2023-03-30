@@ -5,22 +5,24 @@
             <div class="grid text-center justify-center gap-8">
                 <div class="grid gap-3">
                     <h1 class="text-[50px] font-[700]">Krptrix</h1>
-                    <p class="text-[24px]">
-                        A Decentralized Exchange Wallet that allows users <br>send, receive and trade cryptocurrencies.
-                    </p>
+                    <div class="flex justify-center">
+                        <p class="text-[24px] lg:w-1/3">
+                            A Decentralized Exchange Wallet that allows users send, receive and trade cryptocurrencies.
+                        </p>
+                    </div>
                 </div>
                 <img src="../../assets/images/project/frame5.png">
             </div>
         </section>
 
 
-        <section class="lg:px-[9em] md:px-[5em] grid gap-36">
+        <section class="lg:px-[9em] md:px-[5em] px-6 grid gap-36">
 
             <!--- Overview -->
             <div class="grid text-start gap-8">
                 <div class="grid text-start">
                     <h1 class="text-[50px] font-[700]">Overview</h1>
-                    <p class="text-[24px] w-[90%]">
+                    <p class="text-[24px] lg:w-[90%]">
                         Staking is the act of depositing 32 ETH to activate validator software. A validator stores data,
                         processes transactions and adds new blocks to the blockchain. Liquid staking (also known as soft
                         staking) allows stakers deposit any amount of ETH by joining forces with other stakers. Unlike
@@ -66,7 +68,7 @@
 
 
             <div class="grid text-start gap-8">
-                <div class="grid text-start gap-4 w-[90%]">
+                <div class="grid text-start gap-4 lg:w-[90%]">
                     <h1 class="text-[50px] font-[700]">Project brief</h1>
                     <p class="text-[24px] ">
                         Stakify is a staking protocol built to contribute to the security of ethereum and to support its
@@ -90,18 +92,18 @@
 
 
             <div class="grid text-start gap-8">
-                <div class="grid text-start gap-4 w-[75%]">
+                <div class="grid text-start gap-4 lg:w-[75%]">
                     <h1 class="text-[50px] font-[700]">The Problem</h1>
                     <p class="text-[24px] ">
                         After the merge, ethereum now consisted of two chains, the beacon chain and the consensus layer.
                         Staking withdrawals are locked until withdrawals are enabled.
                     </p>
 
-                    <h1 class="text-[50px] font-[700]">Stakify was built to address the following problems;</h1>
+                    <h1 class="md:text-[50px] text-[40px] font-[700]">Stakify was built to address the following problems;</h1>
 
                     <div class="text-[24px] grid gap-11">
                         <div>
-                            <h1 class="text-[50px] font-[600]">Locked-up liquidity</h1>
+                            <h1 class="md:text-[50px] text-[40px] font-[600]">Locked-up liquidity</h1>
                             <p>
                                 The aim of Stakify is to make staking on ethereum accessible. It allows stakers delegate any
                                 amount of ETH token to a staking pool and start earning rewards on them.
@@ -110,7 +112,7 @@
 
 
                         <div>
-                            <h1 class="text-[50px] font-[600]">32 ETH Barrier</h1>
+                            <h1 class="md:text-[50px] text-[40px] font-[600]">32 ETH Barrier</h1>
                             <p>
                                 Depositing 32 ETH to activate a validator node is not very feasible for a lot of users. Some
                                 users want to stake as little as 0.1 ETH and other have more than 32 ETH, a staking protocol
@@ -122,7 +124,7 @@
 
 
                         <div>
-                            <h1 class="text-[50px] font-[600]">Technical barrier</h1>
+                            <h1 class="md:text-[50px] text-[40px] font-[600]">Technical barrier</h1>
                             <p>
                                 Staking directly on the ethereum protocol will require knowing how to run an etehreum node
                                 and operating the hardware needed to run the execution and consensus layer client. This
@@ -138,7 +140,7 @@
 
 
             <div class="grid text-start gap-8">
-                <div class="grid text-start gap-4 w-[90%]">
+                <div class="grid text-start gap-4 lg:w-[90%]">
                     <h1 class="text-[50px] font-[700]">The Goal</h1>
                     <p class="text-[24px] ">
                         Stakers will be able to stake any amount of ETH by joining forces with other stakers. Staker will
@@ -151,7 +153,7 @@
 
 
             <div class="grid text-start gap-8">
-                <div class="grid text-start gap-4 w-[90%]">
+                <div class="grid text-start gap-4 lg:w-[90%]">
                     <h1 class="text-[50px] font-[700]">Visual Design</h1>
                     <div class="text-[24px] grid gap-6 ">
                         <p>
@@ -176,7 +178,7 @@
             <img src="../../assets/images/project/stakify.png">
 
             <div>
-                <h1 class="pl-32 pb-8 text-[32px] font-[600] ">Dashboard</h1>
+                <h1 class="lg:pl-32 pl-4 pt-8 pb-8 text-[32px] font-[600] ">Dashboard</h1>
 
                 <div class="bg-[#044958] p-32">
                     <img src="../../assets/images/project/frame8.png">
@@ -185,7 +187,7 @@
             </div>
 
             <div>
-                <h1 class="pl-32 pb-8 text-[32px] font-[600] ">Stake ETH</h1>
+                <h1 class="lg:pl-32 pl-4 pt-8 pb-8 text-[32px] font-[600] ">Stake ETH</h1>
 
                 <div class="bg-[#FAFAFB] p-5">
                     <img src="../../assets/images/project/frame7.png">
@@ -193,7 +195,7 @@
             </div>
 
             <div>
-                <h1 class="pl-32 pb-8 text-[32px] font-[600] ">Pools and Earnings</h1>
+                <h1 class="lg:pl-32 pl-4 pt-8 pb-8 text-[32px] font-[600] ">Pools and Earnings</h1>
 
                 <div class="bg-[#E9ECEF] ">
                     <img src="../../assets/images/project/frame6.png">
@@ -203,7 +205,7 @@
 
 
             <div>
-                <h1 class="pl-32 pb-8 text-[32px] font-[600] ">Landing page</h1>
+                <h1 class="lg:pl-32 pl-4 pt-8 pb-8 text-[32px] font-[600] ">Landing page</h1>
 
                 <div class="bg-[#E9ECEF] ">
                     <img src="../../assets/images/project/frame9.png">
@@ -213,7 +215,7 @@
 
 
         <!--Create Wallet--->
-        <section class="grid gap-40 lg:px-[8em] md:px-[4em] ">
+        <section class="grid gap-40 lg:px-[8em] md:px-[4em] px-4">
 
             <div class="grid gap-6">
                 <h1 class="text-[28px] font-[700]">
@@ -227,10 +229,7 @@
                 <div class="grid gap-6">
                     <h1 class="text-[28px] font-[700]">My key takeaways</h1>
 
-                    <div class="grid text-[24px] w-[60%] list-disc">
-
-
-
+                    <div class="grid text-[24px] lg:w-[60%] list-disc">
                         <li>
                             Staking should be accessible to all and the solutions should appeal to newbies and not just
                             crypto

@@ -1,5 +1,5 @@
 <template>
-    <div class="grid gap-36">
+    <div class="grid lg:gap-36 gap-20">
         <!--- Header part -->
         <section>
             <div class="grid text-center justify-center gap-8">
@@ -21,7 +21,7 @@
             <div class="grid text-start gap-8">
                 <div class="grid text-start">
                     <h1 class="text-[50px] font-[700]">Overview</h1>
-                    <p class="text-[24px] w-[90%]">
+                    <p class="md:text-[24px] text-[20px] lg:w-[90%]">
                         <b>Decentralized exchanges(Dexes)</b> allows peer-to-peer transactions directly from your digital
                         wallet
                         without going through an intermediary. They facilitate the buying of selling of crypto assets, and
@@ -70,7 +70,7 @@
             <div class="grid text-start gap-8">
                 <div class="grid text-start gap-4">
                     <h1 class="text-[50px] font-[700]">Project Goal</h1>
-                    <p class="text-[24px] w-[90%]">
+                    <p class="text-[24px] md:w-[90%]">
                         The goal was to create an intuitive and user-friendly DEX, A DEX that could accommodate 2 audience
                         type, crypto native and beginners who were just getting into crypto. A solution that was both
                         user-friendly and intuitive.
@@ -78,7 +78,7 @@
                     <p class="text-[22px]">I focused on <b>6 core features</b> that would help me achieve my goal.</p>
                 </div>
 
-                <div class="grid grid-cols-2 gap-4">
+                <div class="grid md:grid-cols-2 gap-4">
 
 
                     <div class="grid  text-center bg-[#FFFFFF] shadow rounded-md px-6 py-6  gap-4">
@@ -164,7 +164,7 @@
                     <h1 class="text-[50px] font-[700]">
                         The Process
                     </h1>
-                    <p class="text-[24px] w-[90%]">
+                    <p class="text-[24px] md:w-[90%]">
                         As it is with every functional and user-centered project, it is pertinent to begin with research.
                         With krptrix , I wanted to design a product that was both intuitive and enjoyable to use. I employed
                         design thinking, a problem-solution framework in helping me facilitate the discovery of the problem
@@ -180,7 +180,7 @@
                 <div class="grid gap-6">
                     <div class="grid gap-6">
                         <h1 class="text-[26px] font-[600]">1. Empathize</h1>
-                        <p class="text-[24px] w-[90%]">
+                        <p class="text-[24px] md:w-[90%]">
                             I started with empathising with the prospective users of krptrix, I wanted to know the
                             pain-points
                             of users who are very much familiar with crypto and have vast experience in using other
@@ -192,47 +192,47 @@
 
                     <h2 class="text-[20px] font-[600]">Some of my findings include;</h2>
 
-                    <div class="grid grid-cols-1 gap-8 ">
+                    <div class="grid grid-cols-1 md:gap-8 gap-4 h-fit ">
 
-                        <div class="grid grid-cols-2 gap-8">
-                            <span class="text-[18px] bg-white p-8 rounded-md ">
+                        <div class="grid md:grid-cols-2 gap-8 ">
+                            <span class="text-[18px] bg-white md:p-8 p-2 rounded-md ">
                                 DEX are not intuitive or easy to use and require a high level of technical know-how.
                             </span>
 
-                            <span class="text-[18px] bg-white p-8 rounded-md ">
+                            <span class="text-[18px] bg-white md:p-8 p-2 rounded-md ">
                                 DEXs lack intuitiveness and are more suitable for traders who have spent some time in the
                                 crypto
                                 space.
                             </span>
                         </div>
 
-                        <div class="grid grid-cols-5 gap-8">
-                            <span class="text-[18px] bg-white p-8 rounded-md col-span-3 ">
+                        <div class="grid md:grid-cols-5 gap-8">
+                            <span class="text-[18px] bg-white md:p-8 p-2 rounded-md col-span-3 ">
                                 DEXs do not support a wide range of cryptocurrencies so sometimes users have to switch
                                 platforms to purchase certain crypto assets.
                             </span>
 
-                            <span class="text-[18px] bg-white p-8 rounded-md col-span-2">
+                            <span class="text-[18px] bg-white md:p-8 p-2 rounded-md col-span-2">
                                 20% of users wanted to be able to send crypto via username becuase this elimates the margin
                                 error that was associated with wallet addresses.
                             </span>
                         </div>
 
 
-                        <div class="grid grid-cols-5 gap-8">
-                            <span class="text-[18px] bg-white p-8 rounded-md col-span-3 ">
+                        <div class="grid md:grid-cols-5 gap-8">
+                            <span class="text-[18px] bg-white md:p-8 p-2 rounded-md col-span-3 ">
                                 The web3 space was still very much littered with crypto jargons so it was quite difficult
                                 for beginners to find their way around crypto.
                             </span>
 
-                            <span class="text-[18px] bg-white p-8 rounded-md col-span-2">
+                            <span class="text-[18px] bg-white md:p-8 p-2 rounded-md col-span-2">
                                 Due to trade collisions, the DEXs sometimes attract higher transaction fees.
                             </span>
                         </div>
 
 
-                        <div class="flex justify-center">
-                            <span class="text-[18px] bg-white p-8 w-1/2">
+                        <div class="flex md:justify-center">
+                            <span class="text-[18px] bg-white md:p-8 p-2 md:w-1/2">
                                 40% of users wanted a multi-wallet app where they could store their crypto token and import
                                 their wallet from other exchanges.
                             </span>
@@ -243,10 +243,10 @@
 
 
 
-                <div class="grid gap-6">
+                <div class="grid md:gap-6 gap-4">
                     <div class="grid gap-6">
                         <h1 class="text-[26px] font-[600]">2. Define</h1>
-                        <p class="text-[24px] w-[90%]">
+                        <p class="text-[24px] md:w-[90%]">
                             The insights I garnered from the empathize phase was an eye opener, I gained a deeper
                             understanding of my potential users pain point and needs and this informed my define phase. This
                             helped me define the problem statement as well as the user personas.
@@ -255,8 +255,8 @@
 
                     <h2 class="text-[20px] font-[600]">Some of my findings include;</h2>
 
-                    <div class="grid grid-cols-6 gap-8 bg-white p-6  rounded-md">
-                        <div class="bg-[#FBF6FF] col-span-2 px-4 py-11 rounded-md grid gap-8">
+                    <div class="grid grid-cols-6  gap-8 bg-white p-6  rounded-md">
+                        <div class="bg-[#FBF6FF] md:col-span-2 col-span-6 px-4 py-11 rounded-md grid gap-8  w-full">
                             <div class="text-center">
                                 <div class="flex justify-center">
                                     <img class="w-[66px] h-[66px]" src="../../assets/images/project/Frame3.png">
@@ -286,7 +286,7 @@
                             </div>
                         </div>
 
-                        <div class=" col-span-4 grid gap-2">
+                        <div class=" md:col-span-4 col-span-full grid gap-2">
                             <div class="bg-[#FBF6FF] rounded-md p-6">
                                 <h1 class="text-[22px] font-[600]">Bio</h1>
                                 <div class="text-[14px] font-[500]">Joshua is a professional photographer. He gets to travel
@@ -298,7 +298,7 @@
                             </div>
 
 
-                            <div class="grid grid-cols-2 gap-4">
+                            <div class="grid md:grid-cols-2 gap-4">
                                 <div class="bg-[#FBF6FF] rounded-md p-6">
                                     <h1 class="text-[22px] font-[600]">Goals</h1>
                                     <div class="list-disc leading-6">
@@ -330,8 +330,8 @@
 
 
 
-                    <div class="grid grid-cols-6 gap-8 bg-white p-6 rounded-md">
-                        <div class="bg-[#FBF6FF] col-span-2 px-4 py-11 rounded-md grid gap-8">
+                    <div class="grid  grid-cols-6 gap-8 bg-white p-6 rounded-md">
+                        <div class="bg-[#FBF6FF] md:col-span-2 col-span-full px-4 py-11 rounded-md grid gap-8">
                             <div class="text-center">
                                 <div class="flex justify-center">
                                     <img class="w-[66px] h-[66px]" src="../../assets/images/project/Frame4.png">
@@ -361,7 +361,7 @@
                             </div>
                         </div>
 
-                        <div class=" col-span-4 grid gap-2">
+                        <div class=" md:col-span-4 col-span-full grid gap-2">
                             <div class="bg-[#FBF6FF] rounded-md p-6">
                                 <h1 class="text-[22px] font-[600]">Bio</h1>
                                 <div class="text-[14px] font-[500]">
@@ -371,7 +371,7 @@
                                 </div>
                             </div>
 
-                            <div class="grid grid-cols-2 gap-4">
+                            <div class="grid md:grid-cols-2 gap-4">
                                 <div class="bg-[#FBF6FF] rounded-md p-6">
                                     <h1 class="text-[22px] font-[600]">Goals</h1>
                                     <div class="list-disc leading-6">
@@ -408,10 +408,10 @@
 
 
 
-                <div class="grid grid-cols-2 gap-6">
+                <div class="grid md:grid-cols-2 gap-6">
                     <div class="grid gap-6">
                         <h1 class="text-[26px] font-[600]">3. Ideate</h1>
-                        <p class="text-[24px] w-[90%]">
+                        <p class="text-[24px] md:w-[90%]">
                             I began to ideate innovative solutions to my problem statement. How might we questions helps me
                             in generating a lot of creative ideas during the ideate phase.
                         </p>
@@ -419,7 +419,7 @@
 
                     <div class="grid gap-6">
                         <h1 class="text-[26px] font-[600]">4. Prototype</h1>
-                        <p class="text-[24px] w-[90%]">
+                        <p class="text-[24px] md:w-[90%]">
                             Prototyping the solutions gave me a better idea of the product’s limitations and the problems it
                             faces, it helped to see how real users would behave, think and feel when they interact with the
                             end product.
@@ -435,18 +435,18 @@
             <div class="grid gap-6">
                 <div class="grid gap-6">
                     <h1 class="text-[36px] font-[700]">Identity Design</h1>
-                    <p class="text-[24px] w-[60%]">
+                    <p class="text-[24px] lg:w-[60%]">
                         Because of my strong background in Identity design, I was also responsible for designing the
                         logo. A simple yet effective logo, it features a very dynamic font and three dots which connotes
                         connectedness, a core feature of web3.
                     </p>
                 </div>
 
-                <div class="flex gap-4">
-                    <div class="bg-white h-fit">
+                <div class="grid md:grid-cols-2 gap-4 lg:w-[60%]">
+                    <div class="bg-white h-fit flex justify-center">
                         <img class="w-56 m-20" src="../../assets/images/project/Vector2.png">
                     </div>
-                    <div class="bg-[#A653A8]">
+                    <div class="bg-[#A653A8] flex justify-center">
                         <img class="w-56 m-20" src="../../assets/images/project/Vector1.png">
                     </div>
                 </div>
@@ -461,8 +461,8 @@
                     <h1 class="text-[36px] font-[700]">Typography</h1>
                     <h1 class="text-[32px] font-[600]">CLASH GROTESK</h1>
 
-                    <div class="relative w-[70%]">
-                        <div class="grid grid-cols-2 w-[60%]">
+                    <div class="relative lg:w-[70%]">
+                        <div class="grid md:grid-cols-2 lg:w-[60%]">
                             <span class="flex gap-2 items-center">
                                 <span class="text-[64px] font-bold">Aa</span>
                                 <span class="font-[500] text-[30px]">Regular</span>
@@ -495,8 +495,8 @@
             <div class="grid gap-6">
                 <div class="grid gap-6">
                     <h1 class="text-[36px] font-[700]">Color variants</h1>
-                    <div class="relative w-[70%]">
-                        <div class="grid grid-cols-3 gap-6">
+                    <div class="relative lg:w-[70%]">
+                        <div class="grid md:grid-cols-3 grid-cols-2 max-[280px]:grid-cols-1 gap-6">
                             <span class="grid gap-2 items-center">
                                 <span class="text-[20px] font-[500]">Primary Color</span>
                                 <span class="w-36 h-8 bg-[#A653A8] rounded-md shadow-lg"></span>
@@ -549,7 +549,7 @@
                     <h1 class="text-[36px] font-[700]">
                         Visual Design
                     </h1>
-                    <p class="text-[24px] w-[60%]">
+                    <p class="text-[24px] lg:w-[60%]">
                         After completing the style guide, I started working on the visual design, I worked on both the dark
                         and light theme.
                     </p>
@@ -564,7 +564,7 @@
                     <h1 class="text-[28px] font-[700]">
                         Onboarding Screens
                     </h1>
-                    <p class="text-[24px] w-[60%]">
+                    <p class="text-[24px] lg:w-[60%]">
                         Intuitive and aesthetically pleasing onboarding screens with carefully crafted messaging that says
                         what the app does and how users can benefit from it.
                     </p>
@@ -576,13 +576,13 @@
 
 
         <!-- mobile  Design--->
-        <section class="flex gap-40">
-            <div class=" gap-6 bg-[#F0F3F4] w-fit ">
-                <img class="w-[40em] m-12" src="../../assets/images/project/mobile1.png">
+        <section class="grid lg:grid-cols-2 md:gap-40 gap-20">
+            <div class=" gap-6 bg-[#F0F3F4] w-fit p-8 ">
+                <img class="lg:w-[40em] " src="../../assets/images/project/mobile1.png">
             </div>
 
-            <div class=" gap-6 bg-[#F4F0F0] w-fit">
-                <img class="w-[40em] m-12" src="../../assets/images/project/mobile2.png">
+            <div class=" gap-6 bg-[#F4F0F0] w-fit p-8">
+                <img class="lg:w-[40em] " src="../../assets/images/project/mobile2.png">
             </div>
         </section>
         <!-- End --->
@@ -590,7 +590,7 @@
 
 
         <!--Import Wallet--->
-        <section class="grid gap-40 lg:px-[8em] md:px-[4em]">
+        <section class="grid md:gap-40 gap-20 lg:px-[8em] md:px-[4em]">
 
             <div class="grid gap-6">
                 <h1 class="text-[28px] font-[700]">
@@ -617,20 +617,20 @@
 
 
         <!--Create Wallet--->
-        <section class="grid gap-40 lg:px-[8em] md:px-[4em]">
+        <section class="grid lg:gap-40 gap-20 lg:px-[8em] md:px-[4em]">
 
             <div class="grid gap-6">
                 <h1 class="text-[28px] font-[700]">
                     Create Wallet
                 </h1>
-                <p class="text-[24px] w-[60%]">
+                <p class="text-[24px] lg:w-[60%]">
                     An intuitive and easy to understand flow for new users who want to create a kryptrix wallet. After
                     creating a wallet, there is an option for adding extra security.
                 </p>
             </div>
 
             <div class="flex flex-col gap-8">
-                <div class=" gap-6 bg-[#F0F3F4] w-2/3  p-10">
+                <div class=" gap-6 bg-[#F0F3F4] ms:w-2/3  p-10">
                     <img class="" src="../../assets/images/project/mobile5.png">
                 </div>
             </div>
@@ -639,25 +639,25 @@
 
 
         <!--Wallet--->
-        <section class="grid gap-40 ">
+        <section class="grid lg:gap-40 gap-20 ">
 
             <div class="grid gap-6 lg:px-[8em] md:px-[4em]">
                 <h1 class="text-[28px] font-[700]">
                     Wallet
                 </h1>
-                <p class="text-[24px] w-[60%]">
+                <p class="text-[24px] lg:w-[60%]">
                     Users can see their assets on the wallet screen, they can easily navigate to see other assets like NFTs
                     as well as the transaction activity on their wallet.
                 </p>
             </div>
 
-            <div class="flex gap-8">
-                <div class=" gap-6 bg-[#F0F3F4] w-fit ">
-                    <img class="w-[40em] m-12" src="../../assets/images/project/mobile6.png">
+            <div class="grid lg:grid-cols-2 gap-8">
+                <div class=" gap-6 bg-[#F0F3F4] w-fit p-8 ">
+                    <img class="lg:w-[40em] " src="../../assets/images/project/mobile6.png">
                 </div>
 
-                <div class=" gap-6 bg-[#F4F0F0] w-fit">
-                    <img class="w-[40em] m-12" src="../../assets/images/project/mobile7.png">
+                <div class=" gap-6 bg-[#F4F0F0] w-fit p-8">
+                    <img class="lg:w-[40em] " src="../../assets/images/project/mobile7.png">
                 </div>
             </div>
 
@@ -670,13 +670,13 @@
 
 
         <!--Create Wallet--->
-        <section class="grid gap-40">
+        <section class="grid lg:gap-40 gap-20">
 
             <div class="grid gap-6">
                 <h1 class="text-[28px] font-[700]">
                     Usability testing
                 </h1>
-                <p class="text-[24px] w-[60%]">
+                <p class="text-[24px] lg:w-[60%]">
                     When I was done with the visual design, I prototyped the screens and tested with prospective users. This
                     study was to help me determine if the design solution satisfied the user’s needs. I tested for
                     intuitiveness and interaction and accessibility.
@@ -686,13 +686,13 @@
         <!-- End --->
 
         <!--Create Wallet--->
-        <section class="grid gap-40">
+        <section class="grid lg:gap-40 gap-20">
 
             <div class="grid gap-6">
                 <h1 class="text-[28px] font-[700]">
                     Feedback from usability testing
                 </h1>
-                <div class="grid text-[24px] w-[60%] list-disc">
+                <div class="grid text-[24px] lg:w-[60%] list-disc">
                     <li>Show a guide on how to Import NFTs</li>
                     <li>
                         Users wanted the education feature to be broken into progressive levels in order to help them
@@ -710,13 +710,13 @@
 
 
         <!--Create Wallet--->
-        <section class="grid gap-40">
+        <section class="grid lg:gap-40 gap-20">
 
             <div class="grid gap-6">
                 <h1 class="text-[28px] font-[700]">
                     My Key takeaways
                 </h1>
-                <p class="text-[24px] w-[60%]">
+                <p class="text-[24px] lg:w-[60%]">
                     Testing with users before moving to development saves a lot of resources. Research is key to designing a
                     project that users would be delighted to use. Decentralized apps are changing the way we move our money,
                     they are giving people more control over their finance and the future of DEXs is a very exciting one.
@@ -727,3 +727,9 @@
 
     </div>
 </template>
+
+<style >
+.home-scope {
+    background-color: #F5F6F8 !important;
+}
+</style>

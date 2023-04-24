@@ -1,19 +1,19 @@
 <template>
-    <footer class="lg:px-[7em] md:px-8 px-4 bg-white py-11 grid gap-8">
-        <div class="lg:text-[140px] md:text-5xl max[280]:text-2xl text-4xl">
-            <h1 class="">Need a Designer?</h1>
-            <h1 class="text-end">Get in touch!</h1>
+    <footer class="lg:px-[7em] md:px-8 px-4 bg-white py-11 grid gap-8 ">
+        <div class="lg:text-[140px] md:text-5xl max[280]:text-2xl text-4xl ">
+            <h1 class="text-black font-[500]">Need a Designer?</h1>
+            <h1 class="text-end text-black font-[500]">Get in touch!</h1>
         </div>
 
-        <div class="flex flex-wrap justify-between">
-            <div class="flex flex-wrap  gap-8">
-                <u>LINKEDIN</u>
-                <u>DRIBBLE</u>
-                <u>BEHANCE</u>
-                <u>TWITTER</u>
+        <div  class="flex flex-wrap justify-between ">
+            <div class="flex flex-wrap  gap-8 text-black">
+                <a class="hover:underline" href="https://www.linkedin.com/in/ejieh-chieze-086856204">LINKEDIN</a>
+                <a class="hover:underline" href="https://dribbble.com/Ejieh_Chieze">DRIBBLE</a>
+                <a class="hover:underline" href="https://medium.com/@ejiehchiezechizzy">MEDIUM</a>
+                <a class="hover:underline" href="https://twitter.com/EjiehChieze" >TWITTER</a>
             </div>
 
-            <a href="mailto:ejiehchieze@gmail.com" class="text-[20px] cursor-pointer underline">ejiehchieze@gmail.com</a>
+            <a href="mailto:ejiehchieze@gmail.com" class="text-[20px] cursor-pointer underline text-black">ejiehchieze@gmail.com</a>
         </div>
 
 

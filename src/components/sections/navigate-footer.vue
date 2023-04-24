@@ -1,19 +1,19 @@
 <template>
-    <div class="flex justify-between bg-inherit border-t pt-16 border-gray-200">
+    <div class="flex justify-between bg-inherit pt-16 ">
         <div class="grid cursor-pointer" @click="prevSlide()">
-            <span class="text-[16px]">
+            <span class="text-[16px] text-[#747474]">
                 PREVIOUS
             </span>
-            <span class="font-[500] md:w-full w-[60%]">
+            <span class="font-[500] md:w-full w-[60%] text-[22px]">
                 Web App and Landing Page for BitBarter
             </span>
         </div>
 
         <div class="grid cursor-pointer" @click="nextSlide()">
-            <span class="text-[16px]">
+            <span class="text-[16px] text-[#747474]">
                 NEXT
             </span>
-            <div class="font-[500]">
+            <div class="font-[500] text-[22px]" >
                 Stakify Web App
             </div>
         </div>

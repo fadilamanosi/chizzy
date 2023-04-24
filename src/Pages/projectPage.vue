@@ -3,7 +3,7 @@
         <project-first @next="slide($event)"></project-first>
     </div>
 
-    <div v-if="nextSlide == 1" class="md:py-36 py-11 lg:px-[7em] md:px-[5em] px-4">
+    <div v-if="nextSlide == 1" class="">
         <project-second></project-second>
     </div>
     <div v-if="nextSlide == 2" class="md:py-36 py-11">
@@ -13,7 +13,7 @@
         <project-fourth></project-fourth>
     </div>
 
-    <div v-if="nextSlide != 0" class="md:py-36 py-11 lg:px-[7em] md:px-[5em] px-4 ">
+    <div v-if="nextSlide != 0" class="md:py-36 py-11 lg:px-[7em] md:px-[5em] px-4 !text-black">
         <navigate-footer :slide="nextSlide" @prev="slide($event)" @next="slide($event)"></navigate-footer>
     </div>
 </template>

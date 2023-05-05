@@ -1,756 +1,91 @@
 <template>
-    <div class="grid gap-8 !text-black ">
-        <!--- Header part -->
-        <section class="py-4 pt-11 lg:px-[7em] px-4 ">
-            <div class="grid text-center justify-center gap-8">
-                <div class="grid gap-3">
-                    <h1 class="text-[30px] font-[700]">Krptrix</h1>
-                    <p class="text-[20px]">
-                        A Decentralized Wallet Exchange enabling users to send, receive, and <br>trade cryptocurrencies
-                        seamlessly.
-                    </p>
-                </div>
-                <img src="../../assets/images/project/frame1.png">
-            </div>
-        </section>
-
-
-
-        <section class="grid ">
-
-            <!--- Kyptrix Decentralized exchanges -->
-            <div class="grid text-start gap-8 lg:px-[16em] px-[2em] lg:py-[4em] py-[2em] ">
-                <div class="grid text-start">
-                    <h1 class="text-[32px] font-[700]">Overview</h1>
-                    <p class="md:text-[20px] text-[20px] text-normal">
-                        Decentralized exchanges(Dexes) allows peer-to-peer transactions directly from your digital
-                        wallet
-                        without going through an intermediary. They facilitate the buying of selling of crypto assets, and
-                        are
-                        built
-                        on the blockchain technology.
-                    </p>
-                </div>
-
-                <div class="grid grid-cols-3 gap-4 text-[18px]">
-                    <div class="grid h-fit">
-                        <span>Client</span>
-                        <span class="text-[#747474]">Krptrix</span>
-                    </div>
-
-                    <div class="grid h-fit">
-                        <span>Timeline</span>
-                        <span class="text-[#747474]">3 Weeks</span>
-                    </div>
-                    <div class="grid h-fit">
-                        <span>My Role</span>
-                        <span class="text-[#747474]">Product Designer</span>
-                    </div>
-
-                    <div class="grid h-fit">
-                        <span>What I did</span>
-                        <div class="grid text-[#747474]">
-                            <span>User research</span>
-                            <span>Information architecture</span>
-                            <span>Wireframing</span>
-                            <span>UI/UX design</span>
-                        </div>
-                    </div>
-
-                    <div class="grid h-fit">
-                        <span>Tools</span>
-                        <span class="text-[#747474]">Figma, FigJam, Whimsical</span>
-                    </div>
-                </div>
-            </div>
-            <!--- End -->
-
-
-
-            <!--- Project Goal -->
-            <div class="grid text-start gap-8 bg-[#FAFAFA]  lg:px-[16em] px-[2em]  lg:py-[4em] py-[2em] ">
-                <div class="grid text-start gap-4">
-                    <h1 class="text-[32px] font-[700]">Project Goal</h1>
-                    <p class="text-[20px] md:w-[90%]">
-                        The goal was to create an intuitive and user-friendly DEX, A DEX that could accommodate 2 audience
-                        type, crypto native and beginners who were just getting into crypto. A solution that was both
-                        user-friendly and intuitive.
-                    </p>
-                    <p class="text-[22px]">I focused on <b>6 core features</b> that would help me achieve my goal.</p>
-                </div>
-
-                <div class="grid md:grid-cols-2 gap-4">
-
-
-                    <div class="grid  text-center bg-[#FFFFFF]  rounded-xl px-6 py-6  gap-4 ">
-                        <div class="flex justify-center">
-                            <span
-                                class="w-[32px] h-[32px] bg-[#560358] text-white text-center rounded-full flex flex-col justify-center">
-                                1
-                            </span>
-                        </div>
-                        <div class="grid gap-2 h-fit">
-                            <span class="text-[20px] font-medium">Multi-Coin Wallet</span>
-                            <span>
-                                This enables users diversify their crypto holdings and keep track of their portfolio
-                            </span>
-                        </div>
-                    </div>
-
-
-                    <div class="grid  text-center bg-[#FFFFFF]  rounded-xl py-16  gap-4 ">
-                        <div class="flex justify-center">
-                            <span
-                                class="w-[32px] h-[32px] bg-[#560358] text-white text-center rounded-full flex flex-col justify-center">
-                                2
-                            </span>
-                        </div>
-                        <div class="grid gap-2">
-                            <span class="text-[20px] font-medium">NFT Wallet</span>
-                            <span>A feature that allows users import their NFTs</span>
-                        </div>
-                    </div>
-
-
-                    <div class="grid  text-center bg-[#FFFFFF]  rounded-xl py-16  gap-4 ">
-                        <div class="flex justify-center">
-                            <span
-                                class="w-[32px] h-[32px] bg-[#560358] text-white text-center rounded-full flex flex-col justify-center">
-                                3
-                            </span>
-                        </div>
-                        <div class="grid gap-2">
-                            <span class="text-[20px] font-medium">DApp Browser</span>
-                            <span>Users can interact with the world of web3 via an in-app browser in a secure manner</span>
-                        </div>
-                    </div>
-
-                    <div class="grid  text-center bg-[#FFFFFF]  rounded-xl py-16  gap-4 ">
-                        <div class="flex justify-center">
-                            <span
-                                class="w-[32px] h-[32px] bg-[#560358] text-white text-center rounded-full flex flex-col justify-center">
-                                4
-                            </span>
-                        </div>
-                        <div class="grid gap-2">
-                            <span class="text-[20px] font-medium">Send asset via username</span>
-                            <span>Send crypto assets to other krptrix users via their username</span>
-                        </div>
-                    </div>
-
-
-                    <div class="grid  text-center bg-[#FFFFFF]  rounded-xl py-16  gap-4 ">
-                        <div class="flex justify-center">
-                            <span
-                                class="w-[32px] h-[32px] bg-[#560358] text-white text-center rounded-full flex flex-col justify-center">
-                                5
-                            </span>
-                        </div>
-                        <div class="grid gap-2">
-                            <span class="text-[20px] font-medium">Investment strategies</span>
-                            <span>Curated list of investment strategies that users can explore</span>
-                        </div>
-                    </div>
-
-                    <div class="grid  text-center bg-[#FFFFFF]  rounded-xl py-16  gap-4 ">
-                        <div class="flex justify-center">
-                            <span
-                                class="w-[32px] h-[32px] bg-[#560358] text-white text-center rounded-full flex flex-col justify-center">
-                                6
-                            </span>
-                        </div>
-                        <div class="grid gap-2">
-                            <span class="text-[20px] font-medium">Crypto education</span>
-                            <span>Advanced and beginner friendly articles on cryptocurrency, blockchain, NFTs etc</span>
-                        </div>
-                    </div>
-
-
-                </div>
-            </div>
-            <!--- End -->
-
-
-
-            <!--- The process -->
-
-            <div class="grid text-start gap-8 lg:px-[16em] px-[2em] bg-[#F5F6F8] lg:py-[4em] py-[2em] ">
-                <div class="grid text-start gap-4">
-                    <h1 class="text-[32px] font-[700]">
-                        The Process
-                    </h1>
-                    <p class="text-[20px] md:w-[90%]">
-                        As it is with every functional and user-centered project, it is pertinent to begin with research.
-                        With krptrix , I wanted to design a product that was both intuitive and enjoyable to use. I employed
-                        design thinking, a problem-solution framework in helping me facilitate the discovery of the problem
-                        as well as the delivery of the solution.
-                    </p>
-                    <p class="text-[22px]">I focused on <b>6 core features</b> that would help me achieve my goal.</p>
-                </div>
-
-                <div>
-                    <img src="../../assets/images/project/frame2.png">
-                </div>
-
-                <div class="grid gap-6">
-                    <div class="grid gap-6">
-                        <h1 class="text-[26px] font-[600]">1. Empathize</h1>
-                        <p class="text-[20px] md:w-[90%]">
-                            I started with empathising with the prospective users of krptrix, I wanted to know the
-                            pain-points
-                            of users who are very much familiar with crypto and have vast experience in using other
-                            decentralized exchanges as well as users who just got into crypto.
-                            I conducted interviews, I also explored existing DEXs and their app reviews, this also helped
-                            consolidate the insights gained from the physical interviews conducted.
+    <div class="text-black">
+        <div class="grid lg:gap-28 gap-16  lg:px-[7em] md:px-[5em] px-4 lg:pt-[117px] pt-[75px] pb-[37px]">
+            <section>
+                <div class="grid text-center justify-center gap-[66px]">
+                    <div class="grid gap-[12px]">
+                        <h1 class="lg:text-[30px] text-[20px] font-[700]">Web App and Landing Page for BitBarter</h1>
+                        <p class="lg:text-[20px] text-[16px]  font-[500] text-[#464646]">
+                            A digital wallet with a payment processor and remittance services.
                         </p>
                     </div>
-
-                    <h2 class="text-[20px] font-[600]">Some of my findings include;</h2>
-
-                    <div class="grid grid-cols-1 md:gap-8 gap-4 h-fit ">
-
-                        <div class="grid md:grid-cols-2 gap-8 ">
-                            <span class="text-[18px] bg-white md:p-8 p-2 rounded-md ">
-                                DEX are not intuitive or easy to use and require a high level of technical know-how.
-                            </span>
-
-                            <span class="text-[18px] bg-white md:p-8 p-2 rounded-md ">
-                                DEXs lack intuitiveness and are more suitable for traders who have spent some time in the
-                                crypto
-                                space.
-                            </span>
-                        </div>
-
-                        <div class="grid md:grid-cols-5 gap-8">
-                            <span class="text-[18px] bg-white md:p-8 p-2 rounded-md col-span-3 ">
-                                DEXs do not support a wide range of cryptocurrencies so sometimes users have to switch
-                                platforms to purchase certain crypto assets.
-                            </span>
-
-                            <span class="text-[18px] bg-white md:p-8 p-2 rounded-md col-span-2">
-                                20% of users wanted to be able to send crypto via username becuase this elimates the margin
-                                error that was associated with wallet addresses.
-                            </span>
-                        </div>
-
-
-                        <div class="grid md:grid-cols-5 gap-8">
-                            <span class="text-[18px] bg-white md:p-8 p-2 rounded-md col-span-3 ">
-                                The web3 space was still very much littered with crypto jargons so it was quite difficult
-                                for beginners to find their way around crypto.
-                            </span>
-
-                            <span class="text-[18px] bg-white md:p-8 p-2 rounded-md col-span-2">
-                                Due to trade collisions, the DEXs sometimes attract higher transaction fees.
-                            </span>
-                        </div>
-
-
-                        <div class="flex md:justify-center">
-                            <span class="text-[18px] bg-white md:p-8 p-2 md:w-1/2">
-                                40% of users wanted a multi-wallet app where they could store their crypto token and import
-                                their wallet from other exchanges.
-                            </span>
-                        </div>
-
-                    </div>
+                    <img src="../../assets/images/project/Frame11.png">
                 </div>
+            </section>
 
+            <section class="lg:px-[8em] md:px-[4em] grid gap-36">
 
+                <!--- Overview -->
+                <div class="grid text-start gap-[38px]">
+                    <div class="grid text-start gap-[12px]">
+                        <h1 class="lg:text-[32px] text-[22px] font-[700]">Overview</h1>
+                        <div class="lg:text-[20px] text-[16px] lg:w-[90%] text-[#747474] grid gap-11">
+                            <p>
+                                A secure platform for bartering crypto and settling payment. BitBarter is a multi-asset
+                                digital
+                                wallet
+                                that is enabled by a P2P marketplace. It offers financial services to Africans and the
+                                global
+                                capital
+                                market by bridging traditional finance and cryptocurrencies. The P2P marketplace is a
+                                cutting-edge
+                                secured platform, where anyone can buy or sell their cryptocurrencies at the best market
+                                rates
+                                using
+                                different fiat currencies available.
+                            </p>
 
-                <div class="grid md:gap-6 gap-4">
-                    <div class="grid gap-6">
-                        <h1 class="text-[26px] font-[600]">2. Define</h1>
-                        <p class="text-[20px] md:w-[90%]">
-                            The insights I garnered from the empathize phase was an eye opener, I gained a deeper
-                            understanding of my potential users pain point and needs and this informed my define phase. This
-                            helped me define the problem statement as well as the user personas.
-                        </p>
-                    </div>
-
-                    <h2 class="text-[20px] font-[600]">Some of my findings include;</h2>
-
-                    <div class="grid grid-cols-6  gap-8 bg-white p-6  rounded-md">
-                        <div class="bg-[#FBF6FF] md:col-span-2 col-span-6 px-4 py-11 rounded-md grid gap-8  w-full">
-                            <div class="text-center">
-                                <div class="flex justify-center">
-                                    <img class="w-[66px] h-[66px]" src="../../assets/images/project/Frame3.png">
-                                </div>
-                                <h1 class="text-[18px] font-[600]">
-                                    Joshua Prince
-                                </h1>
-                                <span>
-                                    Photographer
-                                    27 years old
-                                </span>
-                            </div>
-
-                            <div class="text-center grid">
-                                <span>EDUCATION</span>
-                                <span>School of photography</span>
-                            </div>
-
-                            <div class="text-center grid">
-                                <span>HOME TOWN</span>
-                                <span>Lagos, Nigeria</span>
-                            </div>
-
-                            <div class="text-center grid">
-                                <span>FAMILY</span>
-                                <span>Lives with Partner</span>
-                            </div>
-                        </div>
-
-                        <div class=" md:col-span-4 col-span-full grid gap-2">
-                            <div class="bg-[#FBF6FF] rounded-md p-6">
-                                <h1 class="text-[22px] font-[600]">Bio</h1>
-                                <div class="text-[14px] font-[400]">Joshua is a professional photographer. He gets to travel
-                                    a lot due to the nature of his
-                                    work. He is an avid crypto investor who has been on the look-out for a multi crypto
-                                    wallet he can trust, one that allows him store and trade his crypto coins and NFTs
-                                    securely.
-                                </div>
-                            </div>
-
-
-                            <div class="grid md:grid-cols-2 gap-4">
-                                <div class="bg-[#FBF6FF] rounded-md p-6">
-                                    <h1 class="text-[22px] font-[600]">Goals</h1>
-                                    <div class="list-disc leading-6">
-                                        <li class="text-[14px] font-[400]">
-                                            Joshua would like to store all his crypto assets safely in one crypto wallet.
-                                        </li>
-
-                                        <li class="text-[14px] font-[400]">
-                                            Joshua would like to import his NFTs into his wallet and also trade crypto
-                                            assets
-                                            seamlessly.
-                                        </li>
-                                    </div>
-                                </div>
-
-                                <div class="bg-[#FBF6FF] rounded-md p-6">
-                                    <h1 class="text-[22px] font-[600]">Frustrations</h1>
-                                    <div class="list-disc leading-6">
-                                        <li class="text-[14px] font-[400]">
-                                            Having to switch between crypto wallets to track crypto assets.
-                                        </li>
-                                    </div>
-                                </div>
-                            </div>
-
+                            <p>
+                                BitBarter offers a wide range of fiat and cryptocurrencies, for frictionless payment,
+                                foreign
+                                exchange
+                                and cross-border remittance for people and institutions across the world.
+                            </p>
                         </div>
                     </div>
 
+                    <div class="grid grid-cols-3 gap-4">
+                        <div class="grid h-fit">
+                            <span class="text-[18px] font-[500] text-black">Client</span>
+                            <span class="text-[#747474] text-[18px] font-[400]">BitBarter</span>
+                        </div>
 
+                        <div class="grid h-fit">
+                            <span class="text-[18px] font-[500] text-black">Timeline</span>
+                            <span class="text-[#747474] text-[18px] font-[400]">2 months </span>
+                        </div>
+                        <div class="grid h-fit">
+                            <span class="text-[18px] font-[500] text-black">My Role</span>
+                            <span class="text-[#747474] text-[18px] font-[400]">Product Designer</span>
+                        </div>
 
-
-                    <div class="grid  grid-cols-6 gap-8 bg-white p-6 rounded-md">
-                        <div class="bg-[#FBF6FF] md:col-span-2 col-span-full px-4 py-11 rounded-md grid gap-8">
-                            <div class="text-center">
-                                <div class="flex justify-center">
-                                    <img class="w-[66px] h-[66px]" src="../../assets/images/project/Frame4.png">
-                                </div>
-                                <h1 class="text-[18px] font-[600]">
-                                    Valerie Ray
-                                </h1>
-                                <span>
-                                    Fashion Enterpreneur
-                                    32 years old
-                                </span>
-                            </div>
-
-                            <div class="text-center grid">
-                                <span>EDUCATION</span>
-                                <span>Academy of Art University</span>
-                            </div>
-
-                            <div class="text-center grid">
-                                <span>HOME TOWN</span>
-                                <span>Austin, Texas</span>
-                            </div>
-
-                            <div class="text-center grid">
-                                <span>FAMILY</span>
-                                <span>Lives alone</span>
+                        <div class="grid h-fit">
+                            <span class="text-[18px] font-[500] text-black">What I did</span>
+                            <div class="grid text-[#747474] text-[18px] font-[400]">
+                                <span>User research</span>
+                                <span>Information architecture</span>
+                                <span>Brand Identity design</span>
+                                <span>Usability testing</span>
+                                <span>Wireframing</span>
+                                <span>UI design</span>
                             </div>
                         </div>
 
-                        <div class=" md:col-span-4 col-span-full grid gap-2">
-                            <div class="bg-[#FBF6FF] rounded-md p-6">
-                                <h1 class="text-[22px] font-[600]">Bio</h1>
-                                <div class="text-[14px] font-[400]">
-                                    Valerie is a fashion enterpreneur, she lives in Austin texas. Valerie heard about crypto
-                                    from one of her clients and since then she has been looking for ways to explore
-                                    cryptocurrencies.
-                                </div>
-                            </div>
-
-                            <div class="grid md:grid-cols-2 gap-4">
-                                <div class="bg-[#FBF6FF] rounded-md p-6">
-                                    <h1 class="text-[22px] font-[600]">Goals</h1>
-                                    <div class="list-disc leading-6">
-                                        <li class="text-[14px] font-[400]">
-                                            Valerie will like a crypto wallet that also has a learning resource that teaches
-                                            newbies like herself about investing in crypto and web3 ecosystem.
-                                        </li>
-
-                                        <li class="text-[14px] font-[400]">
-                                            I want an intuitive interface that allows me buy, send and store my crypto
-                                            assets safely and securely.
-                                        </li>
-                                    </div>
-                                </div>
-
-                                <div class="bg-[#FBF6FF] rounded-md p-6">
-                                    <h1 class="text-[22px] font-[600]">Frustrations</h1>
-                                    <ul class="list-disc leading-6">
-                                        <li class="text-[14px] font-[400]">
-                                            The interface of some of the crypto wallet i’ve seen are not very
-                                            beginner-friendly.
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-
-
-
-                </div>
-
-
-
-
-                <div class="grid md:grid-cols-2 gap-6">
-                    <div class="grid gap-6">
-                        <h1 class="text-[26px] font-[600]">3. Ideate</h1>
-                        <p class="text-[20px] md:w-[90%]">
-                            I began to ideate innovative solutions to my problem statement. How might we questions helps me
-                            in generating a lot of creative ideas during the ideate phase.
-                        </p>
-                    </div>
-
-                    <div class="grid gap-6">
-                        <h1 class="text-[26px] font-[600]">4. Prototype</h1>
-                        <p class="text-[20px] md:w-[90%]">
-                            Prototyping the solutions gave me a better idea of the product’s limitations and the problems it
-                            faces, it helped to see how real users would behave, think and feel when they interact with the
-                            end product.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <!--- End -->
-
-
-
-            <!-- Identity  Design--->
-            <!-- <div class="grid gap-6 lg:px-[16em] px-[2em] bg-[#F5F6F8] lg:py-[4em] py-[2em]">
-                <div class="grid gap-6">
-                    <h1 class="text-[36px] font-[700]">Identity Design</h1>
-                    <p class="text-[20px] lg:w-[60%]">
-                        Because of my strong background in Identity design, I was also responsible for designing the
-                        logo. A simple yet effective logo, it features a very dynamic font and three dots which connotes
-                        connectedness, a core feature of web3.
-                    </p>
-                </div>
-
-                <div class="grid md:grid-cols-2 gap-4 lg:w-[60%]">
-                    <div class="bg-white h-fit flex justify-center px-11">
-                        <img class="w-56 m-20" src="../../assets/images/project/Vector2.png">
-                    </div>
-                    <div class="bg-[#A653A8] flex justify-center px-11">
-                        <img class="w-56 m-20" src="../../assets/images/project/Vector1.png">
-                    </div>
-                </div>
-
-            </div> -->
-            <!-- End --->
-
-
-            <div class="grid gap-16" >
-                <!-- Typography--->
-                <div class="grid gap-6 lg:px-[16em] px-[2em] lg:py-[4em] py-[2em]">
-                    <div class="grid gap-6">
-                        <h1 class="text-[36px] font-[700]">Typography</h1>
-                        <h1 class="text-[32px] font-[600]">CLASH GROTESK</h1>
-
-                        <div class="relative lg:w-[70%]">
-                            <div class="grid md:grid-cols-2 lg:w-[60%]">
-                                <span class="flex gap-2 items-center">
-                                    <span class="text-[64px] font-bold">Aa</span>
-                                    <span class="font-[500] text-[30px]">Regular</span>
-                                </span>
-
-                                <span class="flex gap-2 items-center">
-                                    <span class="text-[64px] font-bold">Aa</span>
-                                    <span class="font-[500] text-[30px]">Medium</span>
-                                </span>
-
-                                <span class="flex gap-2 items-center">
-                                    <span class="text-[64px] font-bold">Aa</span>
-                                    <span class="font-[500] text-[30px]">SemiBold</span>
-                                </span>
-
-                                <span class="flex gap-2 items-center">
-                                    <span class="text-[64px] font-bold">Aa</span>
-                                    <span class="font-[500] text-[30px]">Bold</span>
-                                </span>
-                            </div>
-
-                            <!-- <img class="absolute top-0" src="../../assets/images/project/Typograhy.png"> -->
+                        <div class="grid h-fit">
+                            <span class="text-[18px] font-[500] text-black">Tools</span>
+                            <span class="text-[#747474] text-[18px] font-[400]">Figma, Fig Jam, Google meet, Papers</span>
                         </div>
                     </div>
                 </div>
-                <!-- End --->
+                <!--- End -->
+            </section>
 
+        </div>
 
-                <!-- color Varaint--->
-                <div class="grid gap-6 lg:px-[16em] px-[2em] ">
-                    <div class="grid gap-6">
-                        <h1 class="text-[36px] font-[700]">Color variants</h1>
-                        <div class="relative lg:w-[70%]">
-                            <div class="grid md:grid-cols-3 grid-cols-2 max-[280px]:grid-cols-1 gap-6">
-                                <span class="grid gap-2 items-center">
-                                    <span class="text-[20px] font-[500]">Primary Color</span>
-                                    <span class="w-36 h-8 bg-[#A653A8] rounded-md shadow-lg"></span>
-                                </span>
-
-                                <span class="grid gap-2 items-center">
-                                    <span class="text-[20px] font-[500]">Secondary Color</span>
-                                    <span class="w-36 h-8 bg-[#8854BB] rounded-md shadow-lg"></span>
-                                </span>
-
-
-                                <span class="grid gap-2 items-center">
-                                    <span class="text-[20px] font-[500]">Accent Color</span>
-                                    <span class="w-36 h-8 bg-[#507AC5] rounded-md shadow-lg"></span>
-                                </span>
-
-
-                                <span class="grid gap-2 items-center">
-                                    <span class="text-[20px] font-[500]">Error Color</span>
-                                    <span class="w-36 h-8 bg-[#E04646] rounded-md shadow-lg"></span>
-                                </span>
-
-                                <span class="grid gap-2 items-center">
-                                    <span class="text-[20px] font-[500]">Warning Color</span>
-                                    <span class="w-36 h-8 bg-[#FFDB50] rounded-md shadow-lg"></span>
-                                </span>
-                                <span class="grid gap-2 items-center">
-                                    <span class="text-[20px] font-[500]">Success Color</span>
-                                    <span class="w-36 h-8 bg-[#56D87A] rounded-md shadow-lg"></span>
-                                </span>
-                                <span class="grid gap-2 items-center">
-                                    <span class="text-[20px] font-[500]">Surface Color</span>
-                                    <span class="w-36 h-8 bg-[#E6E6E6] rounded-md shadow-lg"></span>
-                                </span>
-                                <span class="grid gap-2 items-center">
-                                    <span class="text-[20px] font-[500]">On-Surface Color</span>
-                                    <span class="w-36 h-8 bg-[#000000] rounded-md shadow-lg"></span>
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- End --->
-
-
-
-                <!-- Visual  Design--->
-                <div class="grid gap-6 lg:px-[16em] px-[2em] ">
-                    <div class="grid gap-6">
-                        <h1 class="text-[36px] font-[700]">
-                            Visual Design
-                        </h1>
-                        <p class="text-[20px] lg:w-[60%]">
-                            After completing the style guide, I started working on the visual design, I worked on both the
-                            dark
-                            and light theme.
-                        </p>
-                    </div>
-                </div>
-                <!-- End --->
-
-
-                <!-- Onboarding  Design--->
-                <div class="grid gap-6 lg:px-[16em] px-[2em] ">
-                    <div class="grid gap-6">
-                        <h1 class="text-[28px] font-[700]">
-                            Onboarding Screens
-                        </h1>
-                        <p class="text-[20px] lg:w-[60%]">
-                            Intuitive and aesthetically pleasing onboarding screens with carefully crafted messaging that
-                            says
-                            what the app does and how users can benefit from it.
-                        </p>
-                    </div>
-                </div>
-                <!-- End --->
-
-
-            </div>
-        </section>
-
-
-
-        <!-- mobile  Design--->
-        <section class="grid lg:grid-cols-2 gap-8 lg:px-[8em] px-[2em] place-contents-center">
-            <div class=" gap-6 bg-[#F0F3F4] p-8 flex justify-center w-full ">
-                <img class="lg:w-[40em] " src="../../assets/images/project/mobile1.png">
-            </div>
-
-            <div class=" gap-6 bg-[#F4F0F0] p-8 flex justify-center w-full">
-                <img class="lg:w-[40em] " src="../../assets/images/project/mobile2.png">
-            </div>
-        </section>
-        <!-- End --->
-
-
-
-        <!--Import Wallet--->
-        <section class="grid gap-6 lg:px-[16em] px-[2em] py-11">
-
-            <div class="grid">
-                <h1 class="text-[28px] font-[700]">
-                    Import Wallet
-                </h1>
-                <p class="text-[20px]">
-                    Users who have existing crypto wallets can chose to import them.
-                </p>
-            </div>
-
-            <div class="flex flex-col gap-8">
-                <div class=" gap-6 bg-[#F0F3F4] md:w-2/3  p-10">
-                    <img class="" src="../../assets/images/project/mobile3.png">
-                </div>
-
-                <div class="flex justify-end">
-                    <div class="gap-6 bg-[#F4F0F0] md:w-2/3 p-10">
-                        <img class="" src="../../assets/images/project/mobile4.png">
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- End --->
-
-
-        <!--Create Wallet--->
-        <section class="grid gap-6 lg:px-[16em] px-[2em] py-11 ">
-
-            <div class="grid ">
-                <h1 class="text-[28px] font-[700]">
-                    Create Wallet
-                </h1>
-                <p class="text-[20px] lg:w-[60%]">
-                    An intuitive and easy to understand flow for new users who want to create a kryptrix wallet. After
-                    creating a wallet, there is an option for adding extra security.
-                </p>
-            </div>
-
-            <div class="flex flex-col gap-8">
-                <div class=" gap-6 bg-[#F0F3F4] ms:w-2/3  p-10">
-                    <img class="" src="../../assets/images/project/mobile5.png">
-                </div>
-            </div>
-        </section>
-        <!-- End --->
-
-
-        <!--Wallet--->
-        <section class="grid gap-6 lg:px-[8em] px-[2em]  py-11">
-
-            <div class="grid lg:px-[8em] px-[2em]">
-                <h1 class="text-[28px] font-[700]">
-                    Wallet
-                </h1>
-                <p class="text-[20px] lg:w-[60%]">
-                    Users can see their assets on the wallet screen, they can easily navigate to see other assets like NFTs
-                    as well as the transaction activity on their wallet.
-                </p>
-            </div>
-
-            <div class="grid lg:grid-cols-2 place-items-center gap-11">
-                <div class=" gap-6 bg-[#F0F3F4] w-full flex justify-center p-8 ">
-                    <img class="lg:w-[40em] " src="../../assets/images/project/mobile6.png">
-                </div>
-
-                <div class=" gap-6 bg-[#F4F0F0] w-full flex justify-center p-8">
-                    <img class="lg:w-[40em] " src="../../assets/images/project/mobile7.png">
-                </div>
-            </div>
-
-            <div>
-                <img class="" src="../../assets/images/project/mobile8.png">
-            </div>
-        </section>
-        <!-- End --->
-
-
-
-        <!--Create Wallet--->
-        <section class="grid lg:gap-20 gap-20 lg:px-[8em] px-[2em] py-6">
-
-            <div class="grid gap-4">
-                <h1 class="text-[32px] font-[700]">
-                    Usability testing
-                </h1>
-                <p class="text-[20px] lg:w-[60%]">
-                    When I was done with the visual design, I prototyped the screens and tested with prospective users. This
-                    study was to help me determine if the design solution satisfied the user’s needs. I tested for
-                    intuitiveness and interaction and accessibility.
-                </p>
-            </div>
-        </section>
-        <!-- End --->
-
-        <!--Create Wallet--->
-        <section class="grid lg:gap-20 gap-20 lg:px-[8em] px-[2em] py-6">
-
-            <div class="grid gap-4">
-                <h1 class="text-[32px] font-[500]">
-                    Feedback from usability testing
-                </h1>
-                <div class="grid text-[20px] lg:w-[60%] list-disc">
-                    <li>Show a guide on how to Import NFTs</li>
-                    <li>
-                        Users wanted the education feature to be broken into progressive levels in order to help them
-                        learn
-                        better.
-                    </li>
-                    <li>
-                        A download button on the receive screen so they can send the QR code to anyone.
-                    </li>
-                </div>
-            </div>
-        </section>
-        <!-- End --->
-
-
-
-        <!--Create Wallet--->
-        <section class="grid lg:gap-20 gap-20 lg:px-[8em] px-[2em] py-6">
-
-            <div class="grid gap-6">
-                <h1 class="text-[32px] font-[500]">
-                    My Key takeaways
-                </h1>
-                <p class="text-[20px] lg:w-[60%]">
-                    Testing with users before moving to development saves a lot of resources. Research is key to designing a
-                    project that users would be delighted to use. Decentralized apps are changing the way we move our money,
-                    they are giving people more control over their finance and the future of DEXs is a very exciting one.
-                </p>
-            </div>
-        </section>
-        <!-- End --->
-
+        <div class="flex justify-center bg-[#F8F9FA] py-28">
+            <h1 class="lg:text-[128px] text-5xl font-bold text-center">
+                View live <br> project <a href="https://bitbarter.io" class="font-bold underline text-[#6204AC]">here</a>
+            </h1>
+        </div>
     </div>
 </template>
-
-<style >
-.home-scope {
-    background-color: #F5F6F8 !important;
-}
-</style>

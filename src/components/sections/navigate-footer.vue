@@ -1,46 +1,53 @@
 <template>
-    <div class="flex justify-between bg-inherit pt-16 ">
-        <div class="grid cursor-pointer" @click="prevSlide()">
-            <span class="text-[16px] text-[#747474]">
+    <div class="grid grid-cols-2 bg-inherit pt-16 md:py-36 py-11 lg:px-[7em] md:px-[5em] px-4 ">
+        <a href="#up" class="h-fit grid cursor-pointer hover:text-[#6204AC]" @click="projectRef.prevSlide()">
+            <span class="text-[16px] text-[#747474] hover:text-[#6204AC]">
                 PREVIOUS
             </span>
-            <span class="font-[500] md:w-full w-[60%] text-[22px]">
-                Web App and Landing Page for BitBarter
+            <span class="font-[500] md:w-full w-[60%] md:text-[22px] text-[16px] hover:text-[#6204AC]">
+                <span v-if="projectRef.projectPage == 1">
+                    Projects
+                </span>
+                <span v-if="projectRef.projectPage == 2">
+                    Web App and Landing Page for BitBarter
+                </span>
+                <span v-if="projectRef.projectPage == 3">
+                    Krptverse
+                </span>
             </span>
-        </div>
+        </a>
 
-        <div class="grid cursor-pointer" @click="nextSlide()">
-            <span class="text-[16px] text-[#747474]">
+        <a href="#up" class="h-fit grid cursor-pointer hover:text-[#6204AC] text-end" @click="projectRef.nextSlide()">
+            <span v-if="projectRef.projectPage != 3" class="text-[16px] text-[#747474] hover:text-[#6204AC] text-end">
                 NEXT
             </span>
-            <div class="font-[500] text-[22px]" >
-                Stakify Web App
+            <div class="font-[500] md:text-[22px] text-[16px] hover:text-[#6204AC]">
+                <span v-if="projectRef.projectPage == 1">
+                    Krptverse
+                </span>
+                <span v-if="projectRef.projectPage == 2">
+                    Stakify Web App
+                </span>
             </div>
-        </div>
+        </a>
     </div>
 </template>
 
 <script setup>
-import { onBeforeMount, ref } from 'vue';
+import { projectStore } from "@/stores/projectStore.js";
+import { onMounted } from "vue";
+const projectRef = projectStore();
 
-const emits = defineEmits(['next', 'prev']);
-const props = defineProps(['slide'])
-const next = ref(0);
+onMounted(() => {
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
 
-function nextSlide() {
-    if (next.value < 3) {
-        emits('next', ++next.value);
-    }
-}
-
-function prevSlide() {
-    if (next.value > 0) {
-        emits('prev', --next.value);
-    }
-}
-
-onBeforeMount(() => {
-    next.value = props.slide;
+            document.querySelector('#up').scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    });
 })
 
 </script>

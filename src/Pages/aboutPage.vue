@@ -1,7 +1,7 @@
 <template>
     <div class="grid gap-28 ">
 
-        <div class="grid lg:grid-cols-3  grid-cols-1 lg:p-28 p-4 lg:gap-0 gap-6">
+        <div class="grid lg:grid-cols-3  grid-cols-1 lg:p-28 p-4 lg:gap-0 gap-y-6">
 
             <div class=" absolute h-full w-full md:flex flex-col justify-center  top-[3em] right-0">
                 <div class="flex justify-center">
@@ -9,35 +9,40 @@
                 </div>
             </div>
 
-            <div class="md:w-fit w-full md:block flex justify-center md:pt-0 pt-11">
-                <img class="md:w-[42em]" src="../assets/images/about/MaskGroup.png">
+            <div class="lg:w-fit w-full lg:block flex justify-center lg:pt-0 pt-11">
+                <img class="lg:w-[42em]" src="../assets/images/about/MaskGroup.png">
             </div>
 
-            <div class=" flex flex-col  lg:gap-11 gap-6 col-span-2 lg:px-16">
+            <div class=" flex flex-col  gap-6 col-span-2 lg:px-16">
                 <h1 class="font-[600] text-[40px] text-black">About Me</h1>
                 <div class="font-[500] md:text-[22px] text-[18px] grid gap-11 text-black ">
+
+
                     <p class="font-[400]">
                         Ever since childhood, design has been an integral part of my life. From doodling and drawing
-                        cartoons, my passion for creating beautiful and functional designs has grown, and product design has
-                        provided the perfect platform for it.
+                        cartoons,
+                        my passion for creating beautiful and functional designs has grown, and product design has provided
+                        the
+                        perfect platform for it.
                     </p>
                     <p class="font-[400]">
-                        When I'm not immersed in design, I enjoy reading, writing, and maintaining a weekly blog on Medium,
-                        where I discuss topics related to product design, web3, crypto, and blockchain technology.
+                        When I'm not designing, I enjoy reading, writing, and maintaining a weekly blog on Medium, where I
+                        discuss topics related to product design, web3, crypto, and blockchain technology.
                     </p>
                     <p class="font-[400]">
-                        Outside of work, I cherish spending time with friends, embarking on road trips, and engaging in
-                        meaningful conversations.
+                        Outside of work, I enjoy spending time with friends, embarking on road trips, and engaging in
+                        meaningful
+                        conversations.
                     </p>
+
                 </div>
 
-                <div class="relative w-fit h-fit">
-                    <img class="md:w-[337px] w-[200px] top-0 right-0" src="../assets/images/Ellipse.png">
-                    <div
-                        class="text-black font-[600] text-[20px] text-center absolute flex flex-col  justify-center h-full top-0 w-full ">
-                        Read Casestudy
+                <a  href="resume.pdf" download="resume"
+                    class="cursor-pointer text-black relative lg:w-[337px] lg:h-[99px] w-[237px] h-[79px] border-[2px] rounded-[50%] border-black hover:border-[#6204AC] hover:text-[#6204AC]">
+                    <div class="text-[20px] text-center  flex flex-col  justify-center h-full top-0 w-full  font-semibold ">
+                        Download resume
                     </div>
-                </div>
+                </a>
             </div>
         </div>
 
@@ -72,11 +77,9 @@
                     </ul>
                 </div>
 
-
-                <div class="relative w-fit h-fit">
-                    <img class="md:w-[337px] w-[200px] top-0 right-0" src="../assets/images/Ellipse.png">
-                    <div
-                        class="text-black font-[600] md:text-[20px] text-[16px] text-center absolute flex flex-col  justify-center h-full top-0 w-full ">
+                <div
+                    class="mt-6  cursor-pointer text-black relative lg:w-[337px] lg:h-[99px] w-[237px] h-[79px] border-[2px] rounded-[50%] border-black hover:border-[#6204AC] hover:text-[#6204AC]">
+                    <div class="text-[20px] text-center  flex flex-col  justify-center h-full top-0 w-full  font-semibold ">
                         Download Resume
                     </div>
                 </div>
@@ -93,7 +96,8 @@
                 </div>
 
                 <div class="grid gap-2 border-dashed border-b-2 border-gray-200 py-8 ">
-                    <h1 class="font-[500] text-[22px] text-black">Product Designer, <span class="text-[#747474] text-[22px]">Dev and
+                    <h1 class="font-[500] text-[22px] text-black">Product Designer, <span
+                            class="text-[#747474] text-[22px]">Dev and
                             Design</span> </h1>
                     <p class="font-[500] text-[14px] text-[#B0B0B0]">APR 2022 - JUNE 2022 (contract)</p>
                     <span class="font-[400] text-[20px] text-[#464646]">
@@ -132,9 +136,31 @@
 
     <img class="pb-11 hidden md:block" src="../assets/images/about/Frame1.png">
     <img class="pb-11 md:hidden block" src="../assets/images/about/Frame2.png">
-
 </template>
 
+<script setup>
+import { onMounted } from "vue";
+// import { appStore } from "@/stores/appStore.js";
+// const appRef = appStore();
+
+onMounted(() => {
+
+    // document.onreadystatechange = () => {
+    //     if (document.readyState == "complete") {
+    //         setTimeout(function () {
+    //             appRef.isLoaded = true;
+    //         }, 5000);
+    //     }
+    // }
+
+    // if (document.readyState == "complete") {
+    //     setTimeout(function () {
+    //         appRef.isLoaded = true;
+    //     }, 5000);
+    // };
+});
+
+</script>
 <style>
 .bg-header {
     background: radial-gradient(104.11% 104.11% at -16.82% 19.21%, rgba(145, 238, 232, 0.28) 0%, rgba(197, 79, 218, 0.711) 100%)
